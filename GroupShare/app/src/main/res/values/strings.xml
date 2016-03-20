@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GroupShare</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_send_otp">SendOTPActivity</string>
+    <string name="title_activity_verify_otp">VerifyOTPActivity</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_notifications">NotificationsActivity</string>
+    <string name="title_activity_friends">FriendsActivity</string>
+    <string name="title_activity_pay">PayActivity</string>
+    <string name="title_activity_collect">CollectActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_share">ShareActivity</string>
+    <string name="title_activity_pay_friend">PayFriendActivity</string>
+    <string name="title_activity_collect_friend">CollectFriendActivity</string>
+</resources>

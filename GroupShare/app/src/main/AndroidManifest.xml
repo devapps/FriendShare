@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vvraith.groupshare" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SendOTPActivity"
+            android:label="@string/title_activity_send_otp"
+            android:theme="@style/AppThemeBar" >
+        </activity>
+        <activity
+            android:name=".VerifyOTPActivity"
+            android:label="@string/title_activity_verify_otp"
+            android:theme="@style/AppThemeBar" >
+        </activity>
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="@string/title_activity_registration"
+            android:theme="@style/AppThemeBar" >
+        </activity>
+        <activity
+            android:name=".NotificationsActivity"
+            android:label="@string/title_activity_notifications"
+            android:theme="@style/AppThemeBar" >
+        </activity>
+        <activity
+            android:name=".FriendsActivity"
+            android:label="@string/title_activity_friends"
+            android:theme="@style/AppThemeBar" >
+        </activity>
+        <activity
+            android:name=".PayActivity"
+            android:label="@string/title_activity_pay"
+            android:theme="@style/AppThemeBar" >
+        </activity>
+        <activity
+            android:name=".CollectActivity"
+            android:label="@string/title_activity_collect"
+            android:theme="@style/AppThemeBar" >
+        </activity>
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppThemeBar" >
+        </activity>
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/AppThemeBar" >
+        </activity>
+        <activity
+            android:name=".ShareActivity"
+            android:label="@string/title_activity_share"
+            android:theme="@style/AppThemeBar" >
+        </activity>
+        <activity
+            android:name=".PayFriendActivity"
+            android:label="@string/title_activity_pay_friend"
+            android:theme="@style/AppThemeBar">
+        </activity>
+        <activity
+            android:name=".CollectFriendActivity"
+            android:label="@string/title_activity_collect_friend"
+            android:theme="@style/AppThemeBar">
+        </activity>
+    </application>
+
+</manifest>

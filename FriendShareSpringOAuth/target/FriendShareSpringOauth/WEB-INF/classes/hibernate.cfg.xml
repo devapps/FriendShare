@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">    
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+		<property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="hibernate.connection.url">jdbc:sqlserver://sezitl006v15;databaseName=hackathondb</property>
+		<property name="hibernate.connection.username">sa</property>
+		<property name="hibernate.connection.password">sqlserver#123</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+		<property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
+		<property name="hibernate.search.autoregister_listeners">false</property>
+ 		<property name="hibernate.hbm2ddl.auto">update</property>
+		<property name="hibernate.current_session_context_class">thread</property>
+		<mapping class="com.friendshare.models.FriendDetails"/>
+		<mapping class="com.friendshare.models.MobileOTP"/>
+		<mapping class="com.friendshare.models.NotificationDetails"/>
+		<mapping class="com.friendshare.models.TransactionDetails"/>
+		<mapping class="com.friendshare.models.UserDetails"/>
+</session-factory>
+</hibernate-configuration>
